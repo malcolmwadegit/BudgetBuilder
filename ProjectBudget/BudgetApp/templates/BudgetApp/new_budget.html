@@ -1,0 +1,23 @@
+{% extends 'BudgetApp/index.html' %}
+{% load static %}
+
+{% block content%}
+<body>
+    <main>
+        <div class="income-wrapper">
+            <div class = "income-container">
+                <div class="income-sub-container">
+        
+                    <!-- Income input -->
+                    <div class="income-div-container">
+                        <h3> Income </h3>
+                        <input type="number" id="income-amount" placeholder="Enter Monthly Income">
+                        <button class="submit"id="income-amount-button"> Submit.</button>           
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+{% endblock %}
