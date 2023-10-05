@@ -9,7 +9,7 @@ Components of a Budget
     = Sample budget data
 
 
-Using Django and REST, Python, js, css, html, R or MatPlotLib
+Using Django, REST, Python, Js, Css, Html, and R or MatPlotLib
 
 
 
@@ -47,7 +47,7 @@ On start: Check to see if user already has a budget started
             -Track speninng by:
                 adding and deleting line items spent through the 
                 duration of their budget timeline and its subbudgets
-                
+
                 
 
 
