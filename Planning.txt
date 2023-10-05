@@ -1,0 +1,54 @@
+Project Plan 
+
+Components of a Budget 
+    - Spending Categories 
+    - Spending Input
+    - Budget goals  
+    - Goal visualization 
+    - Spending Visualiztion 
+    = Sample budget data
+
+
+Using Django and REST, Python, js, css, html, R or MatPlotLib
+
+
+
+layout 
+
+Total Income: ######
+
+
+line item | category | money spent 
+
+
+visualization of budget
+
+
+On start: Check to see if user already has a budget started
+
+    if no budget has started 
+        have a page that says "create new budget" 
+        with a form asking for "income and name of budget"
+            - (this will create a budget with a given income and preset categories)
+            
+            - Then you will be given a table with categories and the percentages 
+            of your income they consume. 
+            
+            - User will be able to: 
+                adjust category percentages, 
+                add new categories, 
+                delete existing categories. 
+                add subbudget for weeks and days 
+
+                Maybe later: 
+                Add a large yearly overview of income and how it effects your anual income
+
+            
+            -Track speninng by:
+                adding and deleting line items spent through the 
+                duration of their budget timeline and its subbudgets
+                
+                
+
+
+

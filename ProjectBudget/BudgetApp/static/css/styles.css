@@ -1,0 +1,28 @@
+.create-buttons{
+    position:relative;
+    display: flex;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    padding: 0rem;
+    gap: 3rem 3rem;
+
+}
+
+
+
+table{
+    font-family:"Helvetica", Sans, serif ;
+    border-style: solid;
+}
+
+table > thead > tr > th { 
+
+    text-align: justify;
+
+}
+
+table >tbody > tr > td{
+    border-top-style:outset
+
+
+}
