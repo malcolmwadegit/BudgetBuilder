@@ -30,4 +30,12 @@ def CreateLineItem():
     
 
 def home(request):
-    return render(request, 'BudgetApp/index.html')
+    return render(request, 'BudgetApp/budget_view.html')
+
+def new_budget(request):
+    return render(request, 'BudgetApp/new_budget.html')
+
+def new_category(request):
+    return render(request, 'BudgetApp/new_category.html')
+def new_line_item(request):
+    return render(request, 'BudgetApp/new_line_item.html')

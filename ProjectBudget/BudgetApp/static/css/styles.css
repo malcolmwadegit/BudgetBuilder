@@ -1,28 +1,108 @@
-.create-buttons{
-    position:relative;
-    display: flex;
-    grid-template-columns: auto auto;
-    justify-content: left;
-    padding: 0rem;
-    gap: 3rem 3rem;
+
+
+
+
+/*---  Nav CSS --- */
+nav {
+    margin-bottom: 5%;
+    position: relative;
+    border-bottom: 1px  solid rgba(0, 0, 0, 0.219) ;
 
 }
 
+/* --- Body CSS --- */
+.first-row-container{
+    position: relative;
+    display: flex;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    padding: 0rem;
+    gap: 10rem;
+} 
 
 
+
+
+body{
+    background-image: linear-gradient(to right, #eff1f15e, #078efc25);
+}
+
+    
+/* --- Table CSS --- */
 table{
     font-family:"Helvetica", Sans, serif ;
     border-style: solid;
+    border-color: black;
+    box-shadow: 0 6px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    font-size:medium;
+    padding: 20px;
+    
 }
 
 table > thead > tr > th { 
 
     text-align: justify;
+    padding: 10px;
 
 }
 
-table >tbody > tr > td{
-    border-top-style:outset
+.budget-table-data{
+    justify-content: left;
+    border-top-style:outset;
+    border-color: rgba(0, 0, 0, 0.37);
+    padding: 0px 50px 0px 50px;
+
+}
+
+.table-subcontainer{
+    width:fit-content;
+    background-color: rgba(79, 132, 179, 0.295);
+    display: table;
+    line-height: 30px;
+    position: relative;
+    box-sizing: border-box;
+    /* grid-template-columns: 500px 500px; */
+    /* grid-template-rows: 30% 20px ;
+    justify-content: left;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+
+/* --- Buttons CSS --- */
+div.create-buttons{
+    position: relative;
+    display: flex;
+    grid-template-columns: auto auto;
+    padding: 0rem;
+    gap: 0.5rem;
+    padding-top: 4px;
+    justify-content: center;
+
+}
+
+/* Categories Table CSS */
+.category-table{
+    color: rgb(199, 31, 31);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+} 
+
+
+
+
+
+
+.sewcond-row-container{
+    width:fit-content;
+    background-color: rgba(79, 132, 179, 0.295);
+    display: table;
+    line-height: 30px;
+    position: right;
+    box-sizing: border-box;
 
 
 }

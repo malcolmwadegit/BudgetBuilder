@@ -4,73 +4,89 @@
 {% block content%}
 
 <body>
-    <main>
-            <!-- Header Buttons -->
-        <header class = "create-buttons">
+<!---           Page Body           -->
+    <main class="first-row-container">
+        <div class = "table-container">
+            <div class = "table-subcontainer">
+                <table class="budget-table">
+                    <thead>
+                        <tr class="budget-table-head">
+                            <th >Line Item</th>
+                            <th>Spent Amount</th>
+                            <th>Category</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                            <!-- Generate rows for the amount of line items-->
+                        <tr class="budget-table-row">
+                            <!-- Generate line items from user input/data-->
+                            <td class="budget-table-data">Fries </td>
+                            <td class="budget-table-data">$3</td>
+                            <td class="budget-table-data">Food</td>
+                        </tr>
+                        <tr>
+                            <!-- Generate line items from user input/data-->
+                            <td class="budget-table-data">PGE Bill</td>
+                            <td class="budget-table-data">$120 </td>
+                            <td class="budget-table-data">Utilities </td>
+                        </tr>
+                        <tr>
+                            <!-- Generate line items from user input/data-->
+                            <td class="budget-table-data">Tre Stelle: Iced Latte</td>
+                            <td class="budget-table-data">$5.75 </td>
+                            <td class="budget-table-data">Miscelaneous </td>
+                        </tr>
+                        <tr>
+                            <!-- Generate line items from user input/data-->
+                            <td class="budget-table-data">REI </td>
+                            <td class="budget-table-data">$321.48 </td>
+                            <td class="budget-table-data">Miscelaneous </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>  
+        <!---  Category List View-->
+        <div class="card-container ">
+            <div class = "card-subcontainer">
+                <div class="category-card">
+                    <table class="categpry-table">
+                        <tr>
+                            <thead>Categories</thead>
+                        </tr>
+                        <!---  List of categories  -->
+                        <!--- for i in categories print i-->
+                        <tr>
+                            <td>Food</td>
+                        </tr>
+                        <tr>
+                            <td>Utilities</td>
+                        </tr>
+                        <tr>  
+                            <td>Miscelaneous</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>  
+     <!-- Header Buttons -->
+    <main class="second-row-container">
+        <div class = "create-buttons">
             <div class="new-category-wrapper">
-                <div class = "new-category-container">
-                    <div class="new-category-sub-container">
-                        <!-- Creating a Category -->
-                        <div class="new-category-div-container">
-                            <button class="submit"id="new-category-button">New Category</button>
-                        </div>
-                    </div>
+                <!-- Creating a Category -->
+                <div class="new-category-div-container">
+                    <button class="submit"id="new-category-button">New Category</button>
                 </div>
             </div>
             <div class="spending-wrapper">
-                <div class = "spending-container">
-                    <div class="spending-sub-container">
-                        <!-- New spending  input -->
-                        <div class="spending-div-container">
-                            <button class="submit"id="spending-amount-button"> New Line Item.</button>
-                        </div>
-                    </div>
-                </div>
+
+            <!-- New spending  input -->
+                <div class="spending-div-container">
+                    <button class="submit"id="spending-amount-button"> New Line Item</button>
+                </div>              
             </div>
-        </header>
-    </main> 
-
-<!--    End Header Button Section   -->
-<!---           Page Body           -->
-    <main>
-        <table class="budget-table">
-            <thead>
-                <tr>
-                    <th >Line Item</th>
-                    <th>Spent Amount</th>
-                    <th>Category</th>
-                </tr>
-            </thead>
-            <tbody>
-                    <!-- Generate rows for the amount of line items-->
-                <tr>
-                    <!-- Generate line items from user input/data-->
-                    <td>Fries </td>
-                    <td>$3</td>
-                    <td>Food</td>
-                </tr>
-                <tr>
-                    <!-- Generate line items from user input/data-->
-                    <td>PGE Bill</td>
-                    <td>$120 </td>
-                    <td>Utilities </td>
-                </tr>
-                <tr>
-                    <!-- Generate line items from user input/data-->
-                    <td>Tre Stelle: Iced Latte</td>
-                    <td>$5.75 </td>
-                    <td>Miscelaneous </td>
-                </tr>
-                <tr>
-                    <!-- Generate line items from user input/data-->
-                    <td>REI </td>
-                    <td>$321.48 </td>
-                    <td>Miscelaneous </td>
-                </tr>
-            </tbody>
-        </table>
-
-
+        </div>
     </main>
 </body>
 
